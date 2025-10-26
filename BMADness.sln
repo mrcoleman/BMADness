@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMADness", "BMADness\BMADness.csproj", "{F332D7B7-892F-4711-88B2-CC86A0F26893}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F332D7B7-892F-4711-88B2-CC86A0F26893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F332D7B7-892F-4711-88B2-CC86A0F26893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F332D7B7-892F-4711-88B2-CC86A0F26893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F332D7B7-892F-4711-88B2-CC86A0F26893}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {063A02C1-FCFA-4CAA-BADB-E402B2A1E5D0}
+	EndGlobalSection
+EndGlobal
