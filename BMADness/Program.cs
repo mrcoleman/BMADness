@@ -14,6 +14,7 @@ using OpenAI;
 var settings = new AllSettings();
 var configBuilder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory())
     .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+    .AddJsonFile("appsettings.dev.json", optional: true, reloadOnChange: true)
     .Build();
 configBuilder.Bind(settings);
 
