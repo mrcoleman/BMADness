@@ -506,4 +506,4 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
-BMADness/appsettings.dev.json
+**/appsettings.dev.json

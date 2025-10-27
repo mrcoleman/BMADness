@@ -5,6 +5,8 @@ VisualStudioVersion = 17.13.35931.197 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMADness", "BMADness\BMADness.csproj", "{F332D7B7-892F-4711-88B2-CC86A0F26893}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMADness.UI", "BMADness.UI\BMADness.UI.csproj", "{DAC811D1-F5F3-4297-92E0-F86BAAAD4CCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F332D7B7-892F-4711-88B2-CC86A0F26893}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F332D7B7-892F-4711-88B2-CC86A0F26893}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F332D7B7-892F-4711-88B2-CC86A0F26893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC811D1-F5F3-4297-92E0-F86BAAAD4CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC811D1-F5F3-4297-92E0-F86BAAAD4CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC811D1-F5F3-4297-92E0-F86BAAAD4CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC811D1-F5F3-4297-92E0-F86BAAAD4CCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,8 +13,8 @@ using OpenAI;
 
 var settings = new AllSettings();
 var configBuilder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory())
-    .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
-    .AddJsonFile("appsettings.dev.json", optional: true, reloadOnChange: true)
+    .AddJsonFile("appsettings.json")
+    .AddJsonFile("appsettings.dev.json", optional: true)
     .Build();
 configBuilder.Bind(settings);
 
@@ -22,7 +22,7 @@ IProvider provider;
 switch (settings.DefaultProvider)
 {
     case PROVIDERS.LMSTUDIO:
-    provider=        new LMStudioProvider(settings);
+    provider= new LMStudioProvider(settings);
         break;
     case PROVIDERS.CLAUDE:
         provider = new ClaudeProvider(settings);
